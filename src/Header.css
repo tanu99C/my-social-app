@@ -1,0 +1,88 @@
+.header{
+  display: flex;
+  position: sticky;
+  padding: 15px 20px;
+  justify-content: space-between;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+  
+}
+
+.header__option:hover>.MuiSvgIcon-root{
+  color: #1877f2;
+}
+
+.header__option--active{
+  border-bottom: 3px solid #1877f2;
+}
+
+.header__option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  color: #65676b;
+  cursor: pointer;
+}
+
+
+.header__left {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* adds spacing between icon and text */
+  width: 400px;
+  padding: 10px 15px;
+  border-radius: 999px;
+  background-color: #f1f2f5;
+  margin-left: 20px;
+}
+
+.header__input input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+  flex: 1;
+}
+
+.header__input .MuiSvgIcon-root {
+  color: #606770;
+}
+
+
+
+.header__left>img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+
+.header__middle {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.header__info > h4 {
+  margin-left: 10px;
+}

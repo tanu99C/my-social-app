@@ -1,0 +1,12 @@
+/* feed.css */
+
+.feed {
+  flex: 1;
+  /* CHANGE: Removed top/bottom padding. The horizontal padding remains. */
+  padding: 0 150px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* REMOVED: This was the main cause of the large gap. */
+  /* justify-content: center; */
+}

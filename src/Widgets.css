@@ -1,0 +1,66 @@
+/* WIDGET CONTAINER */
+.widgets {
+  flex: 0.45;
+  width: 100%;
+  max-width: 550px;         /* increased width */
+  min-width: 350px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* REUSABLE CARD */
+.widget__card {
+  background-color: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ABOUT IMAGE */
+.widget__image {
+  width: 100%;
+  border-radius: 8px;
+  margin: 14px 0;
+}
+
+/* ABOUT TEXT */
+.widget__text {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* NEWS ITEM FLEX */
+.news__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 12px;
+}
+
+/* NEWS IMAGE */
+.news__image {
+  width: 150px;             /* increased */
+  height: 150px;            /* increased */
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* NEWS TEXT */
+.news__content h4 {
+  margin: 0;
+  font-size: 17px;          /* increased */
+  font-weight: 700;
+  color: #222;
+}
+
+.news__content p {
+  margin-top: 6px;
+  font-size: 14px;          /* increased */
+  color: #666;
+  line-height: 1.5;
+}
